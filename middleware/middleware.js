@@ -35,7 +35,7 @@ exports.validasi_find_tugas = (req, res, next) => {
 exports.validasi_update_tugas = (req, res, next) => {
     let schemaUpdate = joi.object().keys({
         judul: joi.string().required().min(1).max(30),
-        deskripsi: joi.string().min(9).max(50),
+        deskripsi: joi.string().min(0).max(50),
         selesai: joi.boolean().default(false)
     })
 
