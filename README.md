@@ -1,4 +1,4 @@
-## Tugas Node Js Dengan MongoD
+## Tugas Node Js Dengan MongoDB
 
 CRUD Express dengan MongoDB berserta validasi dengan middleware Joi
 HTTP: [POST][GET][PATCH][DELETE]
