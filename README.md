@@ -85,7 +85,7 @@ misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885 \
 note:<br />
 id wajib 24 digit\
 judul (string) minimal 1 digit, maksimal 30 digit\
-deskripsi (string) minimal 1 digit, maksimal 50 digit\
+deskripsi (string) maksimal 50 digit\
 selesai (boolean) true/false
 
 dengan body JSON
