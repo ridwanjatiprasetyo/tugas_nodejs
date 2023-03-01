@@ -45,7 +45,7 @@ judul (string) minimal 1 digit, maksimal 30 digit\
 deskripsi (string) maksimal 50 digit\
 selesai (boolean) true/false
 
-dengan body
+dengan body JSON
 ```python
   {
   "judul": "Belajar MongoDB",
@@ -88,7 +88,7 @@ judul (string) minimal 1 digit, maksimal 30 digit\
 deskripsi (string) minimal 1 digit, maksimal 50 digit\
 selesai (boolean) true/false
 
-dengan body
+dengan body JSON
 ```python
   {
   "judul": "Belajar Node Js",
