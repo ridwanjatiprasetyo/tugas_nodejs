@@ -40,7 +40,7 @@ url POST
   http://[ipnodejsanda]:[portnodejsanda]/tugas
 ```
 misal: http://192.168.1.250:3000/tugas \
-note:\ 
+note: \ 
 judul (string) minimal 1 digit, maksimal 30 digit\
 deskripsi (string) maksimal 50 digit\
 selesai (boolean) true/false
@@ -82,7 +82,7 @@ url PATCH
   http://[ipnodejsanda]:[portnodejsanda]/tasks/:id
 ```
 misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885 \
-note:\ 
+note: \ 
 id wajib 24 digit\
 judul (string) minimal 1 digit, maksimal 30 digit\
 deskripsi (string) minimal 1 digit, maksimal 50 digit\
