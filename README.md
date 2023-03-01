@@ -39,7 +39,7 @@ url POST
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tugas
 ```
-misal: http://192.168.1.250:3000/tugas\
+misal: http://192.168.1.250:3000/tugas \
 note:\ 
 judul (string) minimal 1 digit, maksimal 30 digit\
 deskripsi (string) maksimal 50 digit\
@@ -73,7 +73,7 @@ url GET
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tasks/:id
 ```
-misal: http://[ipnodejsanda]:[portnodejsanda]/tasks/63fed5eac229ed11becee885\
+misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885 \
 note: id wajib 24 digit
 
 #PATCH Tugas dengan id\
@@ -81,7 +81,7 @@ url PATCH
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tasks/:id
 ```
-misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885\
+misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885 \
 note:\ 
 id wajib 24 digit\
 judul (string) minimal 1 digit, maksimal 30 digit\
@@ -102,7 +102,7 @@ url DELETE
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tasks/:id
 ```
-misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885\
+misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885 \
 note: id wajib 24 digit
 
 ## License
