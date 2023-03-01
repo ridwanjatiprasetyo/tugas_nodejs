@@ -1,12 +1,12 @@
 ## Tugas Node Js Dengan MongoDB
 
-CRUD Express dengan MongoDB berserta validasi dengan middleware Joi
+CRUD Express dengan MongoDB berserta validasi dengan middleware Joi\
 HTTP: [POST][GET][PATCH][DELETE]
 
 ### Diperlukan:
-- Node Js v14.20.0
+- Node Js v14.20.0\
 selain itu belum dites
-- MongoDB v4.2.24
+- MongoDB v4.2.24\
 selain itu belum dites 
 - Postman untuk testing
   
@@ -34,15 +34,15 @@ npm run start
 ```
 
 ## Penggunaan
-#POST Tugas
+#POST Tugas\
 url POST
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tugas
 ```
-misal: http://192.168.1.250:3000/tugas
-note: 
-judul (string) minimal 1 digit, maksimal 30 digit
-deskripsi (string) maksimal 50 digit
+misal: http://192.168.1.250:3000/tugas\
+note:\ 
+judul (string) minimal 1 digit, maksimal 30 digit\
+deskripsi (string) maksimal 50 digit\
 selesai (boolean) true/false
 
 dengan body
@@ -61,31 +61,31 @@ atau
   }
 ```
 
-#GET Semua tugas
+#GET Semua tugas\
 url GET
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tugas
 ```
 misal: http://192.168.1.250:3000/tugas
 
-#GET Tugas dengan id
+#GET Tugas dengan id\
 url GET
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tasks/:id
 ```
-misal: http://[ipnodejsanda]:[portnodejsanda]/tasks/63fed5eac229ed11becee885
+misal: http://[ipnodejsanda]:[portnodejsanda]/tasks/63fed5eac229ed11becee885\
 note: id wajib 24 digit
 
-#PATCH Tugas dengan id
+#PATCH Tugas dengan id\
 url PATCH
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tasks/:id
 ```
-misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885
-note: 
-id wajib 24 digit
-judul (string) minimal 1 digit, maksimal 30 digit
-deskripsi (string) minimal 1 digit, maksimal 50 digit
+misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885\
+note:\ 
+id wajib 24 digit\
+judul (string) minimal 1 digit, maksimal 30 digit\
+deskripsi (string) minimal 1 digit, maksimal 50 digit\
 selesai (boolean) true/false
 
 dengan body
@@ -97,12 +97,12 @@ dengan body
   }
 ```
 
-#DELETE Tugas dengan id
+#DELETE Tugas dengan id\
 url DELETE
 ```bash
   http://[ipnodejsanda]:[portnodejsanda]/tasks/:id
 ```
-misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885
+misal: http://192.168.1.250:3000/tasks/63fed5eac229ed11becee885\
 note: id wajib 24 digit
 
 ## License
